@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+.container{
+  height:100%;
+  width: 70%;
+  background-color: white;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+#div1{
+  width:55%;
+  height: 100%;
+  background-image: url("fashion\ photo.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%100%;
+  position: relative;
+  
+}
+#div2{
+  width: 60%;
+  height: 100%;
+}
+
+#logo_container{
+  position:absolute;
+  width: 100%;
+  height: 15%;
+  top: 200px;
+  z-index: 1;
+  align-self: center;
+  background-color: rgba(8, 1, 1, 0.2);
+  display: flex;
+  flex-direction: row;
+}
+#text{
+  font-size: 25px;
+  width: 70%;
+  height: 100%;
+  text-align-last: center;
+  justify-items: center;
+  align-content: center;
+  color: white;
+}
+label{
+  font-size: 12px;
+}
+#image{
+  fill: black;
+  fill-opacity: 0.1;
+  mix-blend-mode: multiply;
+}
+.text_container{
+  background-color: rgb(243, 239, 239);
+  width: 166%;
+  height: 36%;
+  color: black;
+  font-size: 1.5em;
+}
+p{
+  width: 100%;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 20px;
+  padding-right: 80px;
+}
+#form_container{
+  height: 35%;
+  width: 167%;
+  background-color: beige(20, 238, 165);  
+}
+h1{
+  padding:20px;
+  font-size: 25px;
+}
+input{
+  width: 250px;
+  height: 29px;
+  border-color: rgb(103, 98, 98);
+  border-radius: 4px;
+}
+#form_input{
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+#form_input input{
+  flex: 1 1 calc (33%)
+}
+
+.row{ 
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-left: 20px;
+  margin-right: 50 px;
+  row-gap: 50px;
+  gap: 162px;
+}
+#button_container{
+  width: 167%;
+  height:29%;
+  background-color: rgb(243, 239, 239);
+  box-shadow: inset 0px 1px 10px 2px rgba(0, 0, 0, 0.4);
+
+}
+button{
+  width: 226px;
+  background-color: rgb(71, 74, 74);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 39px;
+  cursor: pointer;
+  border-radius: 9px
+}
+#login{
+  display: flex;
+  flex-direction: row;
+}
+a{
+  font-size: 18px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+h2{
+  margin-left: 40px;
+  margin-top: -3px;
+  font-size: 20px;
+  font-weight: 100;
+}
+input:invalid{
+  border: 2px solid red;
+}
+input:valid{
+  border:2px solid green;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-Up-Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="div1">
+      <div id="logo_container">
+        <img id="image" src="fashion logo.jpg"/>
+        <div id="text"><b>Fashion News<b></div>
+      </div>
+    </div>
+    
+    <div id="div2">
+      <div class="text_container">
+        <p>Fashion is part of the daily air and it changes all the time, with all the events. So, why to wait for getting the news about latest fashion trends.
+        <br>
+        <br>
+        Sign up now to get started.
+        </p>
+      </div>
+      <div id="form_container">
+        <h1 id="form_text">Let's do this!</h1>
+        <form action="xyz.com">
+          
+          <div id="form_input">
+
+            <div class="row">
+              <div class="field">
+                <label for="firstname" >FIRST NAME</label><br>
+                <input type="text" name="firstname" id="firstname"placeholder="Enter your first name"><br>
+              </div>
+            
+              <div class="field">
+                <label for="lasttname" >LAST NAME</label><br>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your last name"><br>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="field">
+                <label for="email" >EMAIL</label><br>
+                <input type="email" name="email" id="email" placeholder="johndoe@email.com" required><br>
+              </div>
+            
+              <div class="field">
+                <label for="phone_number" >PHONE NUMBER</label><br>
+                <input type="text" name="phone_number" id="phone_number" placeholder="(123) 456-7890"required><br>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="field">
+                <label for="password" >PASSWORD</label><br>
+                <input type="password" name="password" id="password"placeholder="Password"minlength="5" maxlength="15" title="Must contain minimum 5 characters" required><br>
+              </div>
+            
+              <div class="field">
+                <label for="cpassword">CONFIRM PASSWORD</label><br>
+                <input type="cpassword" name="confirmpassword" id="cpassword" placeholder="Confirm Password" required><br>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div id="button_container">
+        <button class="button" name="button" value="submit">Create Account</button>
+        <div id="login">
+          <h2>Already have an account?</h2>
+          <a href="https://www.w3schools.com">Log in</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
