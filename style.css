@@ -100,13 +100,16 @@ input{
 #form_input input{
   flex: 1 1 calc (33%)
 }
+.placeholder_text{
+  padding: 7px;
+}
 
 .row{ 
   display: flex;
   flex-direction: row;
   padding: 10px;
   margin-left: 20px;
-  margin-right: 50 px;
+  margin-right: 50px;
   row-gap: 50px;
   gap: 162px;
 }
