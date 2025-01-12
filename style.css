@@ -59,6 +59,8 @@ label{
   fill: black;
   fill-opacity: 0.1;
   mix-blend-mode: multiply;
+  height: 50px;
+  margin-top: 27px;
 }
 .text_container{
   background-color: rgb(243, 239, 239);
