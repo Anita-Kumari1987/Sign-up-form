@@ -103,6 +103,9 @@ input{
 .placeholder_text{
   padding: 7px;
 }
+input:focus::placeholder {
+  color: transparent;
+}
 
 .row{ 
   display: flex;
